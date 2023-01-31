@@ -11,14 +11,14 @@ const styles = [
 ]
 
   return (
-    <>
+    <div style = {{backgroundImage: 'url("https://i.pinimg.com/564x/7c/64/7c/7c647c51a9e9e786a60e803bf299551d.jpg")'}}>
     <h1>Back to the 90s!</h1>
     <h1>Exploring Fashion Trends of the <b>1990s</b></h1>
     <h6>A simple web application using React</h6>
     <Intro></Intro>
     <PhotoBanner></PhotoBanner>
     {styles.map(s => <StyleInfo {...s}></StyleInfo>)}
-    </>
+    </div>
   );
 }
 

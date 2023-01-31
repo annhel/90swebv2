@@ -14,7 +14,7 @@ export function StyleInfo(prop: StyleProps){
         <>
         <h3>{name}</h3>
         {/* loading images depending on if link is provided */}
-            {image != ""?<>
+            {image !== ""?<>
             <img src={image} alt={name}></img>
             </>: <img src={noImg} alt={"No Img Available :("}></img>
         }
