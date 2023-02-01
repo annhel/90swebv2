@@ -1,5 +1,17 @@
 import React from 'react';
+import { readBuilderProgram } from 'typescript';
 import { StyleInfo } from './style-info';
+
+const bgLink = "https://i.pinimg.com/750x/87/65/c6/8765c656d04a06d900f0c62206239281.jpg"
+
+const backgroundStyle = {
+  height: '100%',
+  backgroundImage: 'url("https://i.pinimg.com/750x/87/65/c6/8765c656d04a06d900f0c62206239281.jpg")',
+
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover'
+}
 
 function App() {
 const styles = [
@@ -11,7 +23,7 @@ const styles = [
 ]
 
   return (
-    <div style = {{backgroundImage: 'url("https://i.pinimg.com/564x/7c/64/7c/7c647c51a9e9e786a60e803bf299551d.jpg")'}}>
+    <div style = {backgroundStyle}>
     <h1>Back to the 90s!</h1>
     <h1>Exploring Fashion Trends of the <b>1990s</b></h1>
     <h6>A simple web application using React</h6>
@@ -32,9 +44,9 @@ function Intro(){
 
 function PhotoBanner(){ 
   return(
-  <>
+  <div style={{color: ('#A4644C')}}>
   <p>include Photo Banner here</p>
-  </>
+  </div>
   )
 }
 
