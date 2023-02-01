@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/90swebv2/static/js/main.b2fd5ae6.js",
+    "main.js": "/90swebv2/static/js/main.53660b16.js",
     "index.html": "/90swebv2/index.html",
-    "main.b2fd5ae6.js.map": "/90swebv2/static/js/main.b2fd5ae6.js.map"
+    "main.53660b16.js.map": "/90swebv2/static/js/main.53660b16.js.map"
   },
   "entrypoints": [
-    "static/js/main.b2fd5ae6.js"
+    "static/js/main.53660b16.js"
   ]
 }
