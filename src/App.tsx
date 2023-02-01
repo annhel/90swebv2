@@ -50,7 +50,7 @@ const styles = [
 
 function Intro(){ 
   return(
-  <div style={divStyle}>
+  <div>
   <p>While fashion transforms and evolves throughout the years, it's not without it's fair-share of referenecs to past decades/eras. Here are some the hottest trends of the 90s:</p>
   </div>
   )
