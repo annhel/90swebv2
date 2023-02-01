@@ -6,7 +6,7 @@ const bgLink = "https://i.pinimg.com/750x/87/65/c6/8765c656d04a06d900f0c62206239
 
 const backgroundStyle = {
   height: '100%',
-  backgroundImage: 'url("https://i.pinimg.com/750x/87/65/c6/8765c656d04a06d900f0c62206239281.jpg")',
+  backgroundImage: 'url("https://i.pinimg.com/564x/7c/40/2f/7c402f5b16bffa4353920fdc0ef22679.jpg")',
 
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
@@ -21,11 +21,11 @@ const bannerStyle = {
   width: '100%'
 }
 
-const divStyle = {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'center',
-}
+// const divStyle = {
+//     display: 'flex',
+//     alignItems: 'center',
+//     justifyContent: 'center',
+// }
 
 function App() {
 const styles = [
