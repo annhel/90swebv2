@@ -10,7 +10,21 @@ const backgroundStyle = {
 
   backgroundPosition: 'center',
   backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover'
+  backgroundSize: 'cover',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+}
+
+const bannerStyle = {
+  backgroundImage: 'url("https://media.istockphoto.com/id/1272367294/photo/abstract-trendy-rainbow-pastel-colored-holographic-banner-background.jpg?s=612x612&w=0&k=20&c=lsIfOdSzTin1IEQuc9T2HeWS37vBSBfnCbQQ2x-3OJ8=")',
+  width: '100%'
+}
+
+const divStyle = {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
 }
 
 function App() {
@@ -36,16 +50,15 @@ const styles = [
 
 function Intro(){ 
   return(
-  <>
+  <div style={divStyle}>
   <p>While fashion transforms and evolves throughout the years, it's not without it's fair-share of referenecs to past decades/eras. Here are some the hottest trends of the 90s:</p>
-  </>
+  </div>
   )
 }
 
 function PhotoBanner(){ 
   return(
-  <div style={{color: ('#A4644C')}}>
-  <p>include Photo Banner here</p>
+  <div style={bannerStyle}>
   </div>
   )
 }
